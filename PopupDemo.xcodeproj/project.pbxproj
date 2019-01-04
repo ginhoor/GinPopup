@@ -16,11 +16,12 @@
 		009FE04721DCA04F00CD042D /* PopupDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 009FE04621DCA04F00CD042D /* PopupDemoTests.m */; };
 		009FE05221DCA04F00CD042D /* PopupDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 009FE05121DCA04F00CD042D /* PopupDemoUITests.m */; };
 		009FE06A21DCA07D00CD042D /* GinPopup+Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = 009FE05F21DCA07D00CD042D /* GinPopup+Unit.m */; };
-		009FE06B21DCA07D00CD042D /* GinPopupGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 009FE06121DCA07D00CD042D /* GinPopupGradientView.m */; };
-		009FE06C21DCA07D00CD042D /* GinPopupContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 009FE06221DCA07D00CD042D /* GinPopupContentView.m */; };
-		009FE06D21DCA07D00CD042D /* GinPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 009FE06721DCA07D00CD042D /* GinPopupViewController.m */; };
-		009FE06E21DCA07D00CD042D /* GinPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 009FE06821DCA07D00CD042D /* GinPopup.m */; };
 		009FE07221DCA20500CD042D /* GinSystemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 009FE07121DCA20500CD042D /* GinSystemButton.m */; };
+		00A24ED621DF2D4D00B77C72 /* GinPopupGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A24ECE21DF2D4D00B77C72 /* GinPopupGradientView.m */; };
+		00A24ED721DF2D4D00B77C72 /* GinPopupContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A24ECF21DF2D4D00B77C72 /* GinPopupContentView.m */; };
+		00A24ED821DF2D4D00B77C72 /* GinPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A24ED421DF2D4D00B77C72 /* GinPopupViewController.m */; };
+		00A24ED921DF2D4D00B77C72 /* GinPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A24ED521DF2D4D00B77C72 /* GinPopup.m */; };
+		00A24EDB21DF41AE00B77C72 /* GinPopup.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 00A24EDA21DF41AE00B77C72 /* GinPopup.podspec */; };
 		227ACA2DE73C7812B5E57E84 /* libPods-PopupDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8320D08B3C38C174816ACD2 /* libPods-PopupDemo.a */; };
 		6E24605401F39338451670BF /* libPods-PopupDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC2201ED5181C182B2F6B77 /* libPods-PopupDemoUITests.a */; };
 		78641D245ABEF034FB31A810 /* libPods-PopupDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C88C61C404DBAE9F868B80 /* libPods-PopupDemoTests.a */; };
@@ -61,17 +62,18 @@
 		009FE05121DCA04F00CD042D /* PopupDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupDemoUITests.m; sourceTree = "<group>"; };
 		009FE05321DCA04F00CD042D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		009FE05F21DCA07D00CD042D /* GinPopup+Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GinPopup+Unit.m"; sourceTree = "<group>"; };
-		009FE06121DCA07D00CD042D /* GinPopupGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GinPopupGradientView.m; sourceTree = "<group>"; };
-		009FE06221DCA07D00CD042D /* GinPopupContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GinPopupContentView.m; sourceTree = "<group>"; };
-		009FE06321DCA07D00CD042D /* GinPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GinPopup.h; sourceTree = "<group>"; };
-		009FE06421DCA07D00CD042D /* GinPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GinPopupViewController.h; sourceTree = "<group>"; };
-		009FE06521DCA07D00CD042D /* GinPopupGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GinPopupGradientView.h; sourceTree = "<group>"; };
-		009FE06621DCA07D00CD042D /* GinPopupContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GinPopupContentView.h; sourceTree = "<group>"; };
-		009FE06721DCA07D00CD042D /* GinPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GinPopupViewController.m; sourceTree = "<group>"; };
-		009FE06821DCA07D00CD042D /* GinPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GinPopup.m; sourceTree = "<group>"; };
 		009FE06921DCA07D00CD042D /* GinPopup+Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GinPopup+Unit.h"; sourceTree = "<group>"; };
 		009FE07021DCA20500CD042D /* GinSystemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GinSystemButton.h; sourceTree = "<group>"; };
 		009FE07121DCA20500CD042D /* GinSystemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GinSystemButton.m; sourceTree = "<group>"; };
+		00A24ECE21DF2D4D00B77C72 /* GinPopupGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GinPopupGradientView.m; sourceTree = "<group>"; };
+		00A24ECF21DF2D4D00B77C72 /* GinPopupContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GinPopupContentView.m; sourceTree = "<group>"; };
+		00A24ED021DF2D4D00B77C72 /* GinPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GinPopup.h; sourceTree = "<group>"; };
+		00A24ED121DF2D4D00B77C72 /* GinPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GinPopupViewController.h; sourceTree = "<group>"; };
+		00A24ED221DF2D4D00B77C72 /* GinPopupGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GinPopupGradientView.h; sourceTree = "<group>"; };
+		00A24ED321DF2D4D00B77C72 /* GinPopupContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GinPopupContentView.h; sourceTree = "<group>"; };
+		00A24ED421DF2D4D00B77C72 /* GinPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GinPopupViewController.m; sourceTree = "<group>"; };
+		00A24ED521DF2D4D00B77C72 /* GinPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GinPopup.m; sourceTree = "<group>"; };
+		00A24EDA21DF41AE00B77C72 /* GinPopup.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GinPopup.podspec; sourceTree = SOURCE_ROOT; };
 		0CC2201ED5181C182B2F6B77 /* libPods-PopupDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopupDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D941579109FCC5FF69A07B /* Pods-PopupDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopupDemoTests/Pods-PopupDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2A779B755643FCF3E4B57D76 /* Pods-PopupDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopupDemo/Pods-PopupDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		009FE02C21DCA04D00CD042D /* PopupDemo */ = {
 			isa = PBXGroup;
 			children = (
+				00A24EDA21DF41AE00B77C72 /* GinPopup.podspec */,
 				009FE06F21DCA20500CD042D /* GinSystemButton */,
 				009FE02D21DCA04D00CD042D /* AppDelegate.h */,
 				009FE02E21DCA04D00CD042D /* AppDelegate.m */,
@@ -143,10 +146,10 @@
 				009FE03121DCA04D00CD042D /* ViewController.m */,
 				009FE06921DCA07D00CD042D /* GinPopup+Unit.h */,
 				009FE05F21DCA07D00CD042D /* GinPopup+Unit.m */,
-				009FE06021DCA07D00CD042D /* Popup */,
 				009FE03321DCA04D00CD042D /* Main.storyboard */,
 				009FE03621DCA04F00CD042D /* Assets.xcassets */,
 				009FE03821DCA04F00CD042D /* LaunchScreen.storyboard */,
+				00A24ECD21DF2D4D00B77C72 /* Popup */,
 				009FE03B21DCA04F00CD042D /* Info.plist */,
 				009FE03C21DCA04F00CD042D /* main.m */,
 			);
@@ -171,21 +174,6 @@
 			path = PopupDemoUITests;
 			sourceTree = "<group>";
 		};
-		009FE06021DCA07D00CD042D /* Popup */ = {
-			isa = PBXGroup;
-			children = (
-				009FE06121DCA07D00CD042D /* GinPopupGradientView.m */,
-				009FE06221DCA07D00CD042D /* GinPopupContentView.m */,
-				009FE06321DCA07D00CD042D /* GinPopup.h */,
-				009FE06421DCA07D00CD042D /* GinPopupViewController.h */,
-				009FE06521DCA07D00CD042D /* GinPopupGradientView.h */,
-				009FE06621DCA07D00CD042D /* GinPopupContentView.h */,
-				009FE06721DCA07D00CD042D /* GinPopupViewController.m */,
-				009FE06821DCA07D00CD042D /* GinPopup.m */,
-			);
-			path = Popup;
-			sourceTree = "<group>";
-		};
 		009FE06F21DCA20500CD042D /* GinSystemButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +182,21 @@
 			);
 			path = GinSystemButton;
 			sourceTree = "<group>";
+		};
+		00A24ECD21DF2D4D00B77C72 /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				00A24ECE21DF2D4D00B77C72 /* GinPopupGradientView.m */,
+				00A24ECF21DF2D4D00B77C72 /* GinPopupContentView.m */,
+				00A24ED021DF2D4D00B77C72 /* GinPopup.h */,
+				00A24ED121DF2D4D00B77C72 /* GinPopupViewController.h */,
+				00A24ED221DF2D4D00B77C72 /* GinPopupGradientView.h */,
+				00A24ED321DF2D4D00B77C72 /* GinPopupContentView.h */,
+				00A24ED421DF2D4D00B77C72 /* GinPopupViewController.m */,
+				00A24ED521DF2D4D00B77C72 /* GinPopup.m */,
+			);
+			path = Popup;
+			sourceTree = SOURCE_ROOT;
 		};
 		79257912EC963FD4FE583E40 /* Pods */ = {
 			isa = PBXGroup;
@@ -326,6 +329,7 @@
 			files = (
 				009FE03A21DCA04F00CD042D /* LaunchScreen.storyboard in Resources */,
 				009FE03721DCA04F00CD042D /* Assets.xcassets in Resources */,
+				00A24EDB21DF41AE00B77C72 /* GinPopup.podspec in Resources */,
 				009FE03521DCA04D00CD042D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,14 +413,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				009FE07221DCA20500CD042D /* GinSystemButton.m in Sources */,
-				009FE06C21DCA07D00CD042D /* GinPopupContentView.m in Sources */,
 				009FE03221DCA04D00CD042D /* ViewController.m in Sources */,
 				009FE03D21DCA04F00CD042D /* main.m in Sources */,
-				009FE06D21DCA07D00CD042D /* GinPopupViewController.m in Sources */,
+				00A24ED921DF2D4D00B77C72 /* GinPopup.m in Sources */,
 				009FE02F21DCA04D00CD042D /* AppDelegate.m in Sources */,
-				009FE06B21DCA07D00CD042D /* GinPopupGradientView.m in Sources */,
+				00A24ED821DF2D4D00B77C72 /* GinPopupViewController.m in Sources */,
+				00A24ED721DF2D4D00B77C72 /* GinPopupContentView.m in Sources */,
+				00A24ED621DF2D4D00B77C72 /* GinPopupGradientView.m in Sources */,
 				009FE06A21DCA07D00CD042D /* GinPopup+Unit.m in Sources */,
-				009FE06E21DCA07D00CD042D /* GinPopup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
